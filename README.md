@@ -1,29 +1,24 @@
 # vue-play-audio
+音声ファイルをささっと埋め込みたい時に使えるかも。サンプル音声視聴とか。
 
-## Project setup
-```
-npm install
-```
+[DEMO](https://mattune.github.io/vue-simple-audio-player/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 導入方法
+1. /src/components/simpleAudioPlayer.vue を任意の場所に追加。
 
-### Compiles and minifies for production
-```
-npm run build
+## 使用方法
+```html
+<vaudio :src="音声ファイルのパス" />
 ```
 
-### Run your tests
-```
-npm run test
-```
+## その他
+複数制御は親コンポーネントからゴニョゴニョしてください。
 
-### Lints and fixes files
-```
-npm run lint
-```
+isPlaying
+→再生状態を返す(デフォルトは false )
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+playSound()
+→再生
+
+stopSound()
+→停止
