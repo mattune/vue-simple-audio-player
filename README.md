@@ -1,4 +1,4 @@
-# vue-play-audio
+# vue-simple-audio-player
 音声ファイルをささっと埋め込みたい時に使えるかも。サンプル音声視聴とか。
 
 [DEMO](https://mattune.github.io/vue-simple-audio-player/)
